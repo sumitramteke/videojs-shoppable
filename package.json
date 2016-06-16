@@ -1,0 +1,23 @@
+{
+  "name": "html5player",
+  "version": "1.0.0",
+  "description": "This will comprise of snippets of different open source HTML5 player",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "video.js": "^5.10.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitramteke/html5player.git"
+  },
+  "author": "sumit ramteke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitramteke/html5player/issues"
+  },
+  "homepage": "https://github.com/sumitramteke/html5player#readme"
+}
