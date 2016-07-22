@@ -10,5 +10,7 @@ ga('send', 'pageview');
 var GBL = {};
 
 GBL.playerStarted = function() {
-	ga('send', 'event', 'Videos', 'play', 'Fall Campaign');
+	ga('send', 'event', 'Videos', 'play', {
+		metric1: 2
+	});
 };
