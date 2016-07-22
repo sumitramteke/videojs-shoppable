@@ -5,16 +5,30 @@
 </head>
 
 <body>
-  <video id="my-video" class="video-js" controls preload="auto"  
-  poster="http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_pre.jpg" data-setup="{}"
-  style="height:270px;width:480px;">
-    <source src="http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_h264_aac.mp4" type='video/mp4'>
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
+  <video id="my-video" class="video-js">
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
   </video>
-
   <script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+  <script>
+    var player = videojs('my-video', {
+      controls : true,
+      autoplay: false,
+      preload : "auto",
+      height : "270",
+      width : "480",
+      poster : "http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_pre.jpg"
+    })
+    .src([
+        { type: "video/mp4", 
+          src: "http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_h264_aac.mp4" }
+      ]);
+
+      player.on('play', function() {
+        console.log("play actions has been taken")
+      });
+  </script>
 </body>
 </html>
