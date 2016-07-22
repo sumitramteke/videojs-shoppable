@@ -20,8 +20,8 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    
-    // ga('send', 'pageview');
+    ga('create', 'UA-81218750-1', 'auto');
+    ga('send', 'pageview');
   </script>
   <!-- End Google Analytics -->
   <script src="./node_modules/video.js/dist/video.min.js"></script>
@@ -33,19 +33,17 @@
       preload : "auto",
       height : "270",
       width : "480",
-      poster : "http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_pre.jpg"
-    }, function() {
-      this.ga('create', 'UA-81218750-1', 'auto');
+      poster : "https://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_pre.jpg"
     })
     .src([
         { type: "video/mp4", 
-          src: "http://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_h264_aac.mp4" }
+          src: "https://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_h264_aac.mp4" }
       ]);
 
       player.on('play', function() {
-        this.ga('send', 'event', "Video", "play", {
+        /*this.ga('send', 'event', "Video", "play", {
           'metric1': 2
-        });
+        });*/
         console.log("play actions has been taken")
       });
   </script>
