@@ -12,8 +12,3 @@ var GBL = {};
 GBL.playerStarted = function() {
 	ga('send', 'event', 'Videos', 'play', 'Fall Campaign');
 };
-
-GBL.testScope = function() {
-	console.log("Hurray its working");
-	console.log("play actions has been taken")
-};

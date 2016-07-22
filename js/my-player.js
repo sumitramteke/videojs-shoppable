@@ -12,5 +12,4 @@ var player = videojs('my-video', {
     src: "https://e.invodo.com/media/lib/77/video/QIR0GD91/1280_720_h264_aac.mp4" 
   }
 ]);
-
-player.on('play', GBL.testScope);
+player.on('play', GBL.playerStarted);
