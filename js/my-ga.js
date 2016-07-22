@@ -10,7 +10,8 @@ ga('send', 'pageview');
 var GBL = {};
 
 GBL.playerStarted = function() {
+	console.log('inside playerstarted ');
 	ga('send', 'event', 'Videos', 'play', {
-		metric1: 2
+		'metric1': 2
 	});
 };
