@@ -14,9 +14,16 @@
         <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
       </p>
   </video>
-  <script src="./js/my-ga.js"></script>
+  <script src="./js/my-GBL.js"></script><!-- GBL init -->
+  <script src="./js/my-ga.js"></script><!-- analytics -->
+  
+  <!-- external libs -->
   <script src="./node_modules/video.js/dist/video.min.js"></script>
-  <script src="./ext-lib/videojs.ga.min.js"></script>
+  <script src="./ext-lib/ga/videojs.ga.min.js"></script>
+  <script src="./ext-lib/overlay/videojs-overlay.js"></script>
+  
+  <!-- custom js changes -->
   <script src="./js/my-player.js"></script>
+  <script src="./js/player-overlay.js"></script>
 </body>
 </html>
