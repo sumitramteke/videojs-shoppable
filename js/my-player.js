@@ -3,8 +3,8 @@
     controls : true,
     autoplay: false,
     preload : "auto",
-    height : "270",
-    width : "480",
+    height : "390",
+    width : "690",
     poster : "https://e.invodo.com/media/lib/3/video/EPMH5U8B/1016_572_pre.jpg"
   })
   .src([
