@@ -1,6 +1,8 @@
 (function(player, debug) {
 	player.overlay({
 		debug: debug,
+		showBackground:false,
+		class: 'btn btn-primary',
 		overlays: [{
 		  content: 'First Shoppable Item',
 		  start: 0,

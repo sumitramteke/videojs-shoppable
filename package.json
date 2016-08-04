@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "video.js": "^5.10.4"
   },
   "scripts": {
