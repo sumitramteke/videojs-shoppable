@@ -5,12 +5,12 @@
     preload : "auto",
     height : "270",
     width : "480",
-    poster : "http://e.invodo.com/media/lib/3/video/EPMH5U8B/1016_572_pre.jpg"
+    poster : "https://e.invodo.com/media/lib/3/video/EPMH5U8B/1016_572_pre.jpg"
   })
   .src([
     { 
       type: "video/mp4", 
-      src: "http://e.invodo.com/media/lib/3/video/EPMH5U8B/1016_572_h264_aac.mp4" 
+      src: "https://e.invodo.com/media/lib/3/video/EPMH5U8B/1016_572_h264_aac.mp4" 
     }
   ]);
 
