@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sumitramteke/html5player.git"
+    "url": "git+https://github.com/sumitramteke/videojs-shoppable.git"
   },
   "author": "sumit ramteke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sumitramteke/html5player/issues"
+    "url": "https://github.com/sumitramteke/videojs-shoppable/issues"
   },
-  "homepage": "https://github.com/sumitramteke/html5player#readme"
+  "homepage": "https://github.com/sumitramteke/videojs-shoppable#readme"
 }
